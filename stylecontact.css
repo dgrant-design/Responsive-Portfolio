@@ -1,0 +1,165 @@
+.Header{
+    background-color: #ffffff;
+    position: absolute;
+    top: 0%;
+    height: 63px;
+    width: 100%;
+    
+}
+
+
+.title{
+    color: #ffffff;
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+    top: 3;
+    left: 3;
+    padding: 13px;
+    margin: 0px;
+    text-align: center;
+    display: inline;
+    position: absolute;
+    margin-left: 22.80%;
+}
+
+.Wrapper{
+    margin-right: 22.80%; 
+}
+
+.index{
+    margin: 15px;
+
+}
+
+a{
+    float: right;
+    display: inline;
+    text-align: center
+}
+
+
+section{
+    
+    border: 1px solid #dddddd;
+    background-color: #ffffff;
+    padding-top: 0px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    height: 534px;
+    width: 800px;
+    margin: 70px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+h2{
+    position: relative;
+    height: 15px;
+    padding: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    font: 200;
+    float: left;
+    color: #4aaaa5;
+    font-size: 32px;
+}
+
+hr{
+    width: 100%;
+}
+
+.firstbox{
+    width: 99%;
+}
+
+.secondbox{
+    width: 99%;
+
+}
+
+textarea{
+    width: 99%;
+    height: 200px;
+}
+
+.submit{
+    color: #ffffff;
+    background-color: #4aaaa5;
+    
+}
+
+.footer {
+    text-align: center; 
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background: grey;
+    color: white;
+    padding: 20px;
+    border-top: 8px solid #4aaaa5;
+    position: fixed;
+    bottom:0;
+    width:100%;
+}
+
+/* Media Queries*/
+
+
+@media screen and (max-width: 980px) {
+    section {
+        width: 713px;
+        margin-left: -1%;
+    }
+}
+
+    @media screen and (max-width: 980px) {
+    .title {
+        margin-left: 12.5%;
+    }
+    }
+
+    @media screen and (max-width: 768px) {
+        section {
+            width:  222%;
+            margin-left: -1%;
+        }
+    }
+    
+        @media screen and (max-width: 640px) {
+        .title {
+            margin-left: 9.35%;
+        }
+        }
+
+
+        @media screen and (max-width: 640px) {
+            .title {
+              position: static;
+            }
+        }
+        
+        
+        @media screen and (max-width: 640px) {
+            section {
+                width:  168%;
+                margin-left: 5%;
+                height: 1158px;
+            }
+        }
+        
+            @media screen and (max-width: 640px) {
+            .title {
+                margin-left: 9.35%;
+            }
+            }
+
+           @media screen and (max-width: 640px) {.Header {
+                background-color: #ffffff;
+                position: absolute;
+                top: 0%;
+                height: 87px;
+                width: 221%;
+           }
+            }

@@ -1,0 +1,179 @@
+
+
+body{
+    background-color: #ffffff;
+}
+
+.Header{
+    background-color: #ffffff;
+    position: absolute;
+    top: 0px;
+    height: 75px;
+    width: 1525px;
+    
+    
+}
+
+
+.title{
+    color: #ffffff;
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+    padding: 18px;
+    margin: 0px;
+    text-align: center;
+    display: inline;
+    position: absolute;
+    margin-left: 22.40%;
+    top: 0px;
+    height: 40px;
+}
+
+.Wrapper{
+    margin-right: 22.40%;
+}
+
+
+hr{
+    width: 100%;
+}
+
+h2{
+    position: relative;
+    height: 15px;
+    padding: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    font: 200;
+    float: left;
+    color: #4aaaa5;
+    font-size: 32px;
+    
+
+
+}
+
+
+h3{
+
+    float: right;
+}
+img{
+
+    float: left;
+}
+.center{
+
+    margin: auto;
+    width: 60%;
+}
+
+
+
+section{
+    
+    border: 1px solid #dddddd;
+    background-color: #ffffff;
+    padding-top: 0px;
+    padding-right: 25px;
+    padding-bottom: 0px;
+    padding-left: 25x;
+    height: 400px;
+    width: 800px;
+    margin: auto;
+
+}
+
+.TextWrap{
+
+    clear: right;
+    float: left;
+    margin: 15px;
+}
+
+
+p{
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2 ;
+    margin-left: 15px;
+}
+
+
+
+.footer {
+    text-align: center; 
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background: grey;
+    color: white;
+    padding: 20px;
+    border-top: 8px solid #4aaaa5;
+    position: fixed;
+    bottom:0;
+    width:100%;
+}
+
+a{
+    float: right;
+    display: inline;
+    text-align: center
+    
+}
+
+.index{
+    margin: 15px;
+   
+}
+/* Media Queries*/
+
+
+@media screen and (max-width: 980px) {
+    section {
+        width: 713px;
+        margin-left: -1%;
+    }
+}
+
+    @media screen and (max-width: 980px) {
+    .title {
+        margin-left: 12.5%;
+    }
+    }
+
+    @media screen and (max-width: 768px) {
+        section {
+            width:  222%;
+            margin-left: -1%;
+        }
+    }
+    
+        @media screen and (max-width: 640px) {
+        .title {
+            margin-left: 9.35%;
+        }
+        }
+
+
+        @media screen and (max-width: 640px) {
+            .title {
+              position: static;
+            }
+        }
+        
+        
+        @media screen and (max-width: 640px) {
+            section {
+                width:  222%;
+                margin-left: -1%;
+                height: 1288px;
+            }
+        }
+        
+            @media screen and (max-width: 640px) {
+            .title {
+                margin-left: 9.35%;
+            }
+            }
+    
